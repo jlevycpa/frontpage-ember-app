@@ -10,6 +10,7 @@ Clone the repository and run `npm install`:
 git clone https://github.com/jlevycpa/frontpage-ember-app
 cd frontpage-ember-app
 npm install
+bower install
 ```
 
 
