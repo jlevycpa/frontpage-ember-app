@@ -1,0 +1,9 @@
+<ul>
+  {{#each sortedPosts as |post|}}
+    <li>
+      {{post.title}} by {{post.author.firstName}} {{post.author.lastName}}
+      <span>({{post.votes}} votes)</span>
+      {{post-upvoter postId=post.id onUpvote=onUpvote}}
+    </li>
+  {{/each}}
+</ul>
